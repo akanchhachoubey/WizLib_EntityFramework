@@ -1,6 +1,6 @@
 using System;
 
-namespace WizLib_EntityFramework.Models
+namespace WizLib_Model.Models
 {
     public class ErrorViewModel
     {

@@ -5,7 +5,7 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
-using WizLib_EntityFramework.Models;
+using WizLib_Model.Models;
 
 namespace WizLib_EntityFramework.Controllers
 {
