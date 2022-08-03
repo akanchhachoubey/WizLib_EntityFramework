@@ -18,7 +18,7 @@ namespace WizLib_DataAccess.Data
         public DbSet<ObjectType> ObjectTypes { get; set; }
 
         //removing genres from the db 
-        //public DbSet<ObjectGenre> Genres { get; set; }
+        public DbSet<ObjectGenre> Genres { get; set; }
         
 
     }
