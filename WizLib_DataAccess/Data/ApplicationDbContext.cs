@@ -16,6 +16,8 @@ namespace WizLib_DataAccess.Data
         }
 
         public DbSet<ObjectType> ObjectTypes { get; set; }
+        public DbSet<ObjectGenre> Genres { get; set; }
+        
 
     }
 }
