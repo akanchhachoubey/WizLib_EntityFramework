@@ -14,6 +14,19 @@ namespace WizLib_Model.Models
         public int BookId { get; set; }
 
         [MaxLength(15)]
+        [Required]
         public string ISBN { get; set; }
+
+        [Required]
+        public string Title { get; set; }
+
+        [Required]
+        public double Price { get; set; }
+
+        [ForeignKey("ObjectType")]
+        public int ObjectType_Id { get; set; }
+
+        public ObjectType ObjectType { get; set; }
+
     }
 }
