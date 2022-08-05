@@ -23,10 +23,10 @@ namespace WizLib_Model.Models
         [Required]
         public double Price { get; set; }
 
-        [ForeignKey("ObjectType")]
-        public int ObjectType_Id { get; set; }
+        [ForeignKey("BookDetail")]
+        public int BookDetail_Id { get; set; }
 
-        public ObjectType ObjectType { get; set; }
+        public BookDetail BookDetail { get; set; }
 
     }
 }
