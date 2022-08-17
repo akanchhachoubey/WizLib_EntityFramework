@@ -8,10 +8,10 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace WizLib_Model.Models
 {
-    public class Author
+    public class Publisher
     {
         [Key]
-        public int Author_Id { get; set; }
+        public int Publisher_Id { get; set; }
 
         [Required]
         public string FirstName { get; set; }
